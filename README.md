@@ -65,4 +65,8 @@ while文やif文の数に合わせてendif・endwhileも書かなければなり
 通常処理の:;はしっかりありますか？
 
 ## 詳しくは
+-公式
 <https://plantuml.com/ja/activity-diagram-beta>
+
+-第二弾
+<https://github.com/mareitaso/PlantUML/blob/main/README2.md>
