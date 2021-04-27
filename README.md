@@ -1,1 +1,2 @@
 # PlantUML
+プラントUMLとは
