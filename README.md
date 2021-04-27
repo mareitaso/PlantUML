@@ -43,21 +43,26 @@ else if(number == 3)then(yes)
 :numberが3の時の処理;
 else if(number == 1)then(yes)
 numberが1の時の処理
-else
+else(全部違う)
 numberが1，3，5以外の時の処理
 endif
 ```
-elseはなくても大丈夫ですが、"endif"は無いとエラーになります。  
-then(yes)は書かなくてもエラーは出ませんが、どちらに分岐するかわかりにくいので書いたほうがいいでしょう。
+elseの後に(NO)の様に分岐のYes,Noなどをいれると  
+elseの時の矢印にNoなどが出できます
 
 ### while文
 while文は以下のように書いていきます。
 ```
 while(条件文) is()
+
+
+endwhile
 ```
 ### エラーが出たときは
+if文やwhile文の終わりにendif・endwhileは書けてますか？  
+while文やif文の数に合わせてendif・endwhileも書かなければなりません。  
 
-
+通常処理の:;はしっかりありますか？
 
 ## 詳しくは
 <https://plantuml.com/ja/activity-diagram-beta>
