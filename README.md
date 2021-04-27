@@ -4,21 +4,21 @@ PlantUMLとはJavaで動く、様々な図をコードで書ける言語です�
 今回はフローチャート(公式にはアクティビティ図)を書く際の書き方です。
 ## PlantUMLの書き方
 ### まず準備すること
-最初に
-@startUML  
+最初に  
+@startuml  
 start  
-最後に
+最後に  
 end  
-@endUML  
+@enduml  
 を書きましょう
 ```
-@startUML
+@startuml
 start
 ～～～
 処理内容
 ～～～
 end
-@endUML
+@enduml
 ```
 これにより始まりと終わりに、それぞれ記号が足されます。  
 ### 通常の処理
