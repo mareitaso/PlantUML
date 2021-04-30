@@ -54,7 +54,7 @@ endif
 elseの後に(NO)の様に分岐のYes,Noなどをいれると  
 elseの時の矢印にNoなどが出できます
 
-### while文
+### while文(前判断)
 while文は以下のように書いていきます。
 ```
 while(条件文) is()
@@ -62,6 +62,7 @@ while(条件文) is()
 :ループ内の処理;
 endwhile
 ```
+前判断とは最初にループするか判断をしてから行われる処理のことです。
 ## エラーが出たときは
 if文やwhile文の終わりにendif・endwhileは書けてますか？  
 while文やif文の数に合わせてendif・endwhileも書かなければなりません。  
