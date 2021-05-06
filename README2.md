@@ -26,7 +26,7 @@ note right : この変数は年齢を入れるもの
 : String name ;
 note left : この変数は人の名前を入れるもの
 ```
-![6](https://user-images.githubusercontent.com/32507455/117246034-d05c0e80-ae76-11eb-83fc-2bc272a567bf.png)
+![6](https://user-images.githubusercontent.com/32507455/117246034-d05c0e80-ae76-11eb-83fc-2bc272a567bf.png)  
 というようにすると、上に書いた処理にノートを付けられます。  
 今回は処理1の右側にノート(コメントのようなもの)が表れます。  
 同じように処理2の左側にもノートが表れます。  
@@ -66,7 +66,7 @@ partition "メインの中身" {
 end
 @enduml
 ```
-![8](https://user-images.githubusercontent.com/32507455/117244713-840fcf00-ae74-11eb-9ce6-0b92dce19127.png)
+![8](https://user-images.githubusercontent.com/32507455/117244713-840fcf00-ae74-11eb-9ce6-0b92dce19127.png)  
 このように partition と "名前" その名前を書くことで図に区分けをしてくれます。  
 終わりには } を入れ忘れないようにしましょう。  
 パーティションの中にパーティションを作ることも可能です。
@@ -80,7 +80,7 @@ repeat :処理開始;
 backward:もどる処理;
 repeat while (エラーがでた) is (yes) not (no)
 ```
-![9](https://user-images.githubusercontent.com/32507455/117244715-84a86580-ae74-11eb-9400-bff2a95b3e7a.png)
+![9](https://user-images.githubusercontent.com/32507455/117244715-84a86580-ae74-11eb-9400-bff2a95b3e7a.png)  
 backward:処理内容; は書かなくても問題ありません。  
 戻る際に処理をしたい時のみ書きましょう。
 
