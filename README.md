@@ -46,9 +46,9 @@ if(number == 5)then(yes)
 else if(number == 3)then(yes)
 :numberが3の時の処理;
 else if(number == 1)then(yes)
-numberが1の時の処理
+:numberが1の時の処理;
 else(全部違う)
-numberが1，3，5以外の時の処理
+:numberが1，3，5以外の時の処理;
 endif
 ```
 elseの後に(NO)の様に分岐のYes,Noなどをいれると  
